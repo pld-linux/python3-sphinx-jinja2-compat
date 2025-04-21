@@ -1,0 +1,11 @@
+--- sphinx_jinja2_compat-0.3.0/pyproject.toml.orig	2024-06-19 12:26:52.682657700 +0200
++++ sphinx_jinja2_compat-0.3.0/pyproject.toml	2025-04-21 13:02:34.722426276 +0200
+@@ -10,7 +10,7 @@
+ requires-python = ">=3.6"
+ keywords = [ "documentation", "jinja2", "sphinx",]
+ dynamic = []
+-dependencies = [ "jinja2>=2.10", "markupsafe>=1", 'standard-imghdr==3.10.14; python_version >= "3.13"',]
++dependencies = [ "jinja2>=2.10", "markupsafe>=1", 'standard-imghdr; python_version >= "3.13"',]
+ classifiers = [
+     "Development Status :: 3 - Alpha",
+     "Intended Audience :: Developers",
